@@ -1,7 +1,7 @@
 import asyncio
 from pytgcalls import idle
 from config import call_py
-from Telethon Bembo.التشغيل import arq
+from TelethonBembo.التشغيل import arq
 async def main():
     await call_py.start()
     print("""    ------------------
