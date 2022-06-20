@@ -30,14 +30,14 @@ async def restart(client, m: Message):
     await loli.edit("7")
     await loli.edit("8")
     await loli.edit("9")
-    await loli.edit("**✅ تم اعاده تشغيل موسيقى تليثون**")
+    await loli.edit("**🐥 تم اعاده تشغيل موسيقى بــــــيــــمبو**")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
-@Client.on_message(filters.command(["اوامر الاغاني"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["اوامر الاغاني", "اوامري"], prefixes=f"{HNDLR}"))
 async def help(client, m: Message):
     await m.delete()
     HELP = f"""
-<b>👋 اهلا {m.from_user.mention}!
+<b>👋 مرحبا {m.from_user.mention}!
 
 𝘰𝘳𝘥𝘦𝘳𝘴 𝘮𝘶𝘴𝘪𝘤 𝘵𝘦𝘭𝘦𝘵𝘩𝘰𝘯
 ——————×—————
@@ -57,16 +57,16 @@ async def help(client, m: Message):
 
 ⧉ | لأعاده تشغيل التنصيب أرسل ⇦  [ `{HNDLR}ريستارت` ]
 ———————×———————
-🛠 | @TelethonMusic
-⭐ | @LLL5L"""
+🐥 سورس بــــــيــــمبو | @B_e_m_0
+☣️ المطور | @O1BOO"""
     await m.reply(HELP)
-@Client.on_message(filters.command(["الريبو"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["الريبو", "افيونا"], prefixes=f"{HNDLR}"))
 async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
-<b>👋  اهلا {m.from_user.mention}!
+<b>👋  مرحبا {m.from_user.mention}!
 
-🎶 هذا ميوزك العرب | @TelethonMusic
-⭐ المطور | @LLL5L
+🐥 سورس بــــــيــــمبو | @B_e_m_0
+☣️ المطور | @O1BOO
 """
     await m.reply(REPO, disable_web_page_preview=True)
