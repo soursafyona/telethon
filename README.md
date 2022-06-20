@@ -1,3 +1,6 @@
 # telethon Bembo
 
-https://heroku.com/deploy?template=https://github.com/soursafyona/bonnU
+
+
+### Deploy To Heroku
+[Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/soursafyona/telethon)
